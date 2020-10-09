@@ -11,6 +11,7 @@ bind-address = {{ mysql_bind_address }}
 datadir = {{ mysql_datadir }}
 socket = {{ mysql_socket }}
 pid-file = {{ mysql_pid_file }}
+default-time-zone = {{ mysql_time_zone }}
 {% if mysql_skip_name_resolve %}
 skip-name-resolve
 {% endif %}
